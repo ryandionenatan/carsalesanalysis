@@ -1,0 +1,37 @@
+Nama : Ryan Dionenatan
+
+Batch : FTDS-038-RMT
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+
+NoSQL adalah sebuah bentuk penyimpanan database yang tidak terikat pada struktur data tertentu dan data yang disimpan di infrastruktur ini tidak harus mempunyai bentuk yang konsisten.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+RDBMS dipakai bila datanya bersifat relasional, mempunyai struktur yang tetap dan bila datanya harus memiliki bentuk yang konsisten.
+NoSQL dipakai bila data yang dimasukkan bersifat fleksibel, bila data butuh diakses dan dimasukkan secara cepat dan bila datanya tidak mempunyai struktur tertentu.
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+MongoDB dan Apache CouchDB.
+
+Keunggulan MongoDB :
+MongoDB menyimpan data dalam format BSON, sehingga MongoDB dapat menyimpan data dalam jenis struktur data apapun. Dan data bisa replikasi secara real-time secara cepat.
+
+Keunggulan Apache CouchDB :
+CouchDB memiliki toleransi kesalahan yang tinggi, sehingga data dapat diproses secara aman. Dan mendukung HTTP API sehingga interaksi data antar aplikasi jadi lebih gampang.
+
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+
+Airflow adalah sebuah aplikasi task runner dan scheduler yang menjalankan code Python dengan alur yang ditentukan oleh pembuat skrip
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+
+Great Expectations adalah library Python yang bertugas untuk membantu orang yang bekerja dengan data untuk melakukan validasi data yang sedang ditangani untuk memastikan datanya telah sesuai dengan ketentuan yang diminta.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+Batch Processing adalah sebuah sistem untuk melakukan serangkaian proses baik itu mengolah data, atau menjalankan tugas rutin secara otomatis dan berulang.
+Contoh kasus penggunaannya adalah pembuatan laporan keuangan bulanan dimana sistem secara otomatis menarik data dari database, melakukan transformasi data, menyusun laporan keuangan sesuai dengan kerangka yang telah ditentukan dan mengirim hasil kepada divisi keuangan perusahaan.
+Contoh tools Batch Processing seperti AWS Batch, Google Cloud Composer, Dagster, Luigi dan lain-lain.
