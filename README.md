@@ -9,20 +9,6 @@ Car Sales Analysis is a project that aims to process and analyze car sales data 
 - **Elasticsearch Integration**: Transformed data is posted to Elasticsearch.
 - **Kibana Visualization**: Provides comprehensive statistical analysis through Kibana.
 
-## Installation
-
-[WIP]
-
-## Usage
-
-[WIP]
-
-## Configuration
-
-### Environment Variables
-
-[WIP]
-
 ## Contact
 
 For any inquiries, please contact [ryandionenatan@yahoo.co.id].
